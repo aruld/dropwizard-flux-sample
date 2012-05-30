@@ -1,0 +1,13 @@
+h1. DropWizard Flux Sample App
+
+Schedules Flux workflows from a DropWizard application.
+
+h2. Setup
+
+* git clone https://github.com/aruld/dropwizard-flux-sample.git
+* mvn package
+
+h2. Testing
+
+* java -Djava.security.auth.login.config=src/main/resources/fluxjaas.config -Djava.security.policy=src/main/resources/fluxjaas.policy -jar target/dropwizard-flux-sample-1.0.jar
+* Run Client com.flux.tests.FluxClient
