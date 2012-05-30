@@ -13,3 +13,4 @@ h2. Testing
 
 * java -Djava.security.auth.login.config=src/main/resources/fluxjaas.config -Djava.security.policy=src/main/resources/fluxjaas.policy -jar target/dropwizard-flux-sample-1.0.jar
 * Run Client com.flux.tests.FluxClient
+* Check out Flux plugins to build some cool integration https://bitbucket.org/aruld/flux-plugins
