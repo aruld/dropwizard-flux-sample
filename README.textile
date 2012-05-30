@@ -1,9 +1,10 @@
 h1. DropWizard Flux Sample App
 
-Schedules Flux workflows from a DropWizard application.
+Example showing how to schedule Flux workflows in a DropWizard application.
 
 h2. Setup
 
+* Download and Extract Flux from http://flux.ly/download
 * Install flux.jar to your local maven repo: mvn install:install-file -DgroupId=flux -DartifactId=flux -Dversion=7.11.3 -Dpackaging=jar -Dfile=flux.jar
 * git clone https://github.com/aruld/dropwizard-flux-sample.git
 * mvn package
